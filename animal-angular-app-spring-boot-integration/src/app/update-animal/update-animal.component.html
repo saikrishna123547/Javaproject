@@ -1,0 +1,10 @@
+<p>update-animal works!</p>
+<div class="container">
+    <h3><u>Enter the details of Animal which you want to update</u></h3>
+    <input class="form-control" type="text" [(ngModel)]="animal.id" placeholder="Enter Animal Id">
+    <input class="form-control" type="text" [(ngModel)]="animal.name" placeholder="Enter Animal Name">
+    <input class="form-control" type="text" [(ngModel)]="animal.age" placeholder="Enter Animal Age">
+    <input class="form-control" type="text" [(ngModel)]="animal.category" placeholder="Enter Animal Category">
+    <input class="form-control" type="url" [(ngModel)]="animal.avatar" placeholder="Enter Animal URL">
+    <button class="btn btn-primary" type="button" (click)="updateAnimal()">Update Animal</button>
+</div>

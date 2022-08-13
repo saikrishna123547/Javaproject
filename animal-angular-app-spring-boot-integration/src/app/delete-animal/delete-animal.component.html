@@ -1,0 +1,6 @@
+<p>delete-animal works!</p>
+<h3><u>Delete the animals by using the animal ID</u></h3>
+<div class="container">
+    <input class="form-control" type="text" [(ngModel)]="animal.id" placeholder="Enter the Animal Id">
+    <button class="btn btn-primary" type="button" (click)="deleteAnimal(animal.id)">Delete Animal</button>
+</div>
